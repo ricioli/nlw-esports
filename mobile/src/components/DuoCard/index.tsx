@@ -20,9 +20,16 @@ interface Props {
   onConnect: () => void;
 }
 
-export function DuoCard({ data: { hourEnd, hourStart, name, useVoiceChannel, weekDays, yearsPlaying }, onConnect }: Props) {
+export function DuoCard({
+  data: { hourEnd, hourStart, name, useVoiceChannel, weekDays, yearsPlaying },
+  onConnect,
+}: Props) {
   return (
     <View style={styles.container}>
+      <TouchableOpacity style={styles.button} onPress={onConnect}>
+        <GameController color={THEME.COLORS.TEXT} size={20} />
+        <Text style={styles.buttonText}>Conectar</Text>
+      </TouchableOpacity>
       <DuoInfo label="Nome" value={name} />
       <DuoInfo label="Tempo de jogo" value={`${yearsPlaying} anos`} />
       <DuoInfo label="Disponibilidade" value={`${weekDays.length} dias \u2022 ${hourStart} ${hourEnd}`} />
@@ -31,10 +38,6 @@ export function DuoCard({ data: { hourEnd, hourStart, name, useVoiceChannel, wee
         value={useVoiceChannel ? 'Sim' : 'Não'}
         colorValue={useVoiceChannel ? THEME.COLORS.SUCCESS : THEME.COLORS.ALERT}
       />
-      <TouchableOpacity style={styles.button} onPress={onConnect}>
-        <GameController color={THEME.COLORS.TEXT} size={20} />
-        <Text style={styles.buttonText}>Conectar</Text>
-      </TouchableOpacity>
     </View>
   );
 }
