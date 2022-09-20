@@ -1,4 +1,4 @@
-![NLW eSports]("https://raw.githubusercontent.com/ricioli/nlw-esports/main/web/src/assets/logo-nlw-esports.svg?token=GHSAT0AAAAAABYXYDY7MZXUUF4FXAMBTMASYZJC5AA")
+![NLW eSports]("https://github.com/ricioli/nlw-esports/blob/main/main/web/src/assets/logo-nlw-esports.svg?raw=true")
 
 # NLW eSports
 
