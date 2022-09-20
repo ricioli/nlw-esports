@@ -1,4 +1,4 @@
-![NLW eSports]("https://github.com/ricioli/nlw-esports/blob/main/web/src/assets/logo-nlw-esports.svg")
+![NLW eSports](https://github.com/ricioli/nlw-esports/blob/main/web/src/assets/logo-nlw-esports.svg "NLW eSports")
 
 # NLW eSports
 
