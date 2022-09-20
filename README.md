@@ -4,7 +4,7 @@
 
 ## Back-end
 
-**Node + Express + Cors**  
+**Node + Typescript + Express**  
 **Prisma ORM + SQLite**  
 
 ## Front-end
@@ -15,5 +15,5 @@
 
 ## Mobile
 
-**Expo + React Native**  
+**Expo + React Native + Typescript**  
 [**Phosphor-react-native**](https://www.npmjs.com/package/phosphor-react-native)  
